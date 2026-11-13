@@ -10,7 +10,9 @@ The first question is answered from the company documents (badge: **Knowledge Ba
 
 ## Screencast
 
-[Watch the screencast](assets/Screencast%20From%202026-11-13%2013-56-31.mp4) of the app answering both kinds of question.
+![BrewHaven Support screencast](assets/screencast.gif)
+
+The app answering one question from the documents and one through web fallback. [Full-quality video (mp4)](assets/Screencast%20From%202026-11-13%2013-56-31.mp4).
 
 ## How it works
 
