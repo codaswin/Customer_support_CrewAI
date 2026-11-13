@@ -3,7 +3,7 @@
 Three sequential agents: Knowledge Base (RAG) -> Web Search fallback -> Gap Log writer.
 
 ```
-cp .env.example .env   # add OPENAI_API_KEY
+cp .env.example .env   # add OPENAI_API_KEY and ADMIN_PASSWORD
 uv sync
 uv run streamlit run app.py
 uv run pytest          # no LLM calls

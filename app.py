@@ -1,3 +1,5 @@
+import os
+
 import streamlit as st
 from dotenv import load_dotenv
 
@@ -6,9 +8,13 @@ import crew  # noqa: E402  (after load_dotenv so the API key is set)
 from tools import LOG_FILE  # noqa: E402
 
 st.title("BrewHaven Support")
-with st.sidebar:
-    st.header("Gap Log")
-    st.code(LOG_FILE.read_text() if LOG_FILE.exists() else "(empty)")
+# Gap Log holds other customers' queries: admin-only, hidden unless ADMIN_PASSWORD is set and entered.
+admin_pw = os.getenv("ADMIN_PASSWORD")
+if admin_pw:
+    with st.sidebar:
+        st.header("Admin")
+        if st.text_input("Admin password", type="password") == admin_pw:
+            st.code(LOG_FILE.read_text() if LOG_FILE.exists() else "(empty)")
 
 if "msgs" not in st.session_state:
     st.session_state.msgs = []
