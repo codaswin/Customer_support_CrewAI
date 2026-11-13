@@ -1,0 +1,9 @@
+BrewHaven Coffee - Shop Information
+
+Our flagship cafe is at 42 Roastery Lane, Portland, Oregon. Opening hours are Monday to Friday 7 AM to 7 PM, and Saturday and Sunday 8 AM to 5 PM. We are closed on Thanksgiving and Christmas Day.
+
+Customer support is available by email at help@brewhaven.example, Monday to Friday 9 AM to 5 PM Pacific. We reply within one business day.
+
+Warranty: all brewing equipment sold by BrewHaven has a 12-month warranty against manufacturing defects. The warranty does not cover damage from misuse, drops, or descaling with non-approved products. To claim, email help@brewhaven.example with your order number and a photo of the defect.
+
+We offer a loyalty program: every $1 spent earns 1 point, and 100 points can be redeemed for a $5 discount.
