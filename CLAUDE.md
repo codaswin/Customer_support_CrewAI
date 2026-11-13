@@ -2,7 +2,7 @@
 
 ### Issue tracker
 
-GitHub Issues (`codaswin/customer_support_crewai`, via `gh`). See `docs/agents/issue-tracker.md`.
+GitHub Issues (`codaswin/Customer_support_CrewAI`, via `gh`). See `docs/agents/issue-tracker.md`.
 
 ### Domain docs
 
