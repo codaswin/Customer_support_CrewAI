@@ -28,4 +28,5 @@ if q := st.chat_input("Ask a question"):
     text = f"{text}\n\n*Source: {source}*"
     st.chat_message("assistant").write(text)
     st.session_state.msgs += [("user", q), ("assistant", text)]
-    st.rerun() if source != "Knowledge Base" else None  # refresh sidebar log
+    if source != "Knowledge Base":
+        st.rerun()  # refresh sidebar log
